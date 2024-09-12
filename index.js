@@ -14,7 +14,7 @@
  * @param {Item[]} items - array of items
  */
 function logNames(items) {
-  // TODO: use `forEach`
+  logNames.forEach((items) => console.log(items));
 }
 
 /**
@@ -22,7 +22,7 @@ function logNames(items) {
  * @returns {string[]} an array of item names in all uppercase
  */
 function getUppercaseNames(items) {
-  // TODO: use `map`
+  
 }
 
 /**
